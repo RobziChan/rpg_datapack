@@ -15,5 +15,5 @@ execute as @a[tag=miner,tag=miner_level_2] if score @s xp >= level_3 miner_level
 
 
 
-say miner level check
+#say miner level check
 schedule function blob:class_level_check/miner 5s

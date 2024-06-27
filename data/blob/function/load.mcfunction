@@ -1,4 +1,6 @@
 tellraw @a [{"color":"dark_blue","text":"Pee"},{"color":"dark_aqua","text":"Pee"},{"color":"green","text":"Poo"},{"color":"red","text":"Poo"}]
+gamerule doLimitedCrafting true
+recipe give @a *
 
 scoreboard objectives add xp dummy "XP"
 scoreboard objectives add lvl dummy "LvL"
@@ -8,6 +10,7 @@ scoreboard objectives add pve minecraft.custom:minecraft.mob_kills "PvE"
 
 
 function blob:class_scoreboard/miner
+function blob:remove_custom_recipe
 
 schedule function blob:class_level_check/miner 5s
 schedule function blob:class_xp_check/miner 1s

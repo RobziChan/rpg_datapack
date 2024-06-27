@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:diamond",
+        {
+            "id":"blob:axe_emerald"
+        }
+    ]
+}

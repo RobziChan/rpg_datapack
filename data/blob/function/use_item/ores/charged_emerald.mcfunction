@@ -1,0 +1,1 @@
+execute as @s if items entity @s weapon.offhand minecraft:diamond_pickaxe[minecraft:custom_data={"emerald_pickaxe":1b}] as @s run say pick
