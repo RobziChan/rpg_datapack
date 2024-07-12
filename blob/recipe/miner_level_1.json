@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:command_block"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:command_block",
+        "components":{
+            "custom_name":"{\"text\":\"Miner Level 1\",\"color\":\"white\"}",
+            "custom_data":{
+                "miner_level":1
+            }
+        }
+    }
+}

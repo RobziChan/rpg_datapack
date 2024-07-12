@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        " # ",
+        " s ",
+        " s "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:diamond_shovel",
+        "components":{
+            "custom_name":"{\"text\":\"Emerald Shovel\",\"color\":\"white\"}",
+            "custom_data":{
+                "shovel_emerald": 1,
+                "charged_emerald": 1
+            },
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 1000000
+            },
+            "repair_cost":100
+        }
+    }
+}
