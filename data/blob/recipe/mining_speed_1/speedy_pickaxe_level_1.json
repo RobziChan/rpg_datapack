@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "###",
+    "#i#",
+    "###"
+    ],
+    "key": {
+    "#": [
+        "minecraft:redstone"
+    ],
+    "i": [
+        "minecraft:wooden_pickaxe"
+    ]
+    },
+    "result": {
+        "id": "minecraft:wooden_pickaxe",
+        "components": {
+            "minecraft:custom_name": {
+                "text": "Speedy pickaxe level 1",
+                "color": "white",
+                "italic": false
+            },
+            "minecraft:lore": [
+                {
+                    "text": "Low level pickaxe",
+                    "color": "gray"
+                },
+                {
+                    "text": "Mines faster than normal",
+                    "color": "gray"
+                }
+            ],
+        "minecraft:attribute_modifiers": [
+            {
+            "type": "minecraft:block_break_speed",
+            "id": "minecraft:",
+            "amount": 10,
+            "operation": "add_value",
+            "slot": "mainhand"
+            }
+        ],
+        "minecraft:custom_data": {
+                "speedy_pickaxe_level_1": true
+            }
+        }
+    }
+}

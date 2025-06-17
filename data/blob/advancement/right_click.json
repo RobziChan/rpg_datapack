@@ -1,16 +1,15 @@
 {
     "criteria": {
-        "requirement": {
+        "using_item": {
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
-                    "components": {
-                        "minecraft:food": {
-                        "nutrition": 0,
-                        "saturation": 0,
-                        "can_always_eat": true,
-                        "eat_seconds": 1000000
-                        }
+                    "items": [
+                        "minecraft:miner_pottery_sherd",
+                        "minecraft:angler_pottery_sherd"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": "{blob_right_click:true}"
                     }
                 }
             }
@@ -19,4 +18,5 @@
     "rewards": {
         "function": "blob:clicking"
     }
-} 
+}
+

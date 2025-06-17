@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:emerald_block",
+        "components":{
+            "custom_name":"{\"text\":\"Charged Emerald II\",\"color\":\"white\"}",
+            "custom_data":{
+                "charged_emerald":2
+            },
+            "max_stack_size": 1,
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 1000000
+            },
+            "enchantment_glint_override":true,
+            "lore":[
+                "{\"text\":\"Used for repairing emerald tools\",\"color\":\"blue\"}",
+                "{\"text\":\"Put the item you want to repair in offhand\",\"color\":\"gray\"}",
+                "{\"text\":\"+40% Repair\",\"color\":\"gray\"}"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+tellraw @a [{"color":"gold","selector":"@s"},{"color":"white","text":" Just learned "},{"color":"blue","text":"Mining Speed 1","underlined":true}]

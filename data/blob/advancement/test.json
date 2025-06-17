@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick"
+    },
+    "title": {
+      "text": "testing",
+      "color": "gold",
+      "italic": false
+    },
+    "description": {
+      "text": "All mining related talents",
+      "color": "white",
+      "italic": false
+    },
+    "background": "minecraft:block/bamboo_planks",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "oak_button"
+      }
+    }
+  },
+  "rewards": {
+    "function": "blob:testing"
+  }
+}

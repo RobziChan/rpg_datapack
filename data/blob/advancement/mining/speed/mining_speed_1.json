@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:redstone"
+    },
+    "title": {
+        "text": "Mining speed level 1"
+    },
+    "description": {
+        "text": "Mining speed level 1 upgrade",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:mining/main_mining",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}
