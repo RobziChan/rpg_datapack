@@ -1,13 +1,13 @@
 {
     "display": {
     "icon": {
-        "id": "minecraft:redstone"
+        "id": "minecraft:golden_apple"
     },
     "title": {
-        "text": "Mining Speed Level 1"
+        "text": "Stat Health Level 2"
     },
     "description": {
-        "text": "Mining speed level 1 upgrade",
+        "text": "Stat health level 2 perk",
         "color": "white",
         "italic": false
     },
@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "hidden": false
 },
-"parent": "blob:mining/main_mining",
+"parent": "blob:stats/health/stats_health_1",
 "criteria": {
     "root": {
         "trigger": "impossible"

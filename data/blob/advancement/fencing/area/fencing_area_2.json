@@ -1,13 +1,13 @@
 {
     "display": {
     "icon": {
-        "id": "minecraft:redstone"
+        "id": "minecraft:wind_charge"
     },
     "title": {
-        "text": "Mining Speed Level 1"
+        "text": "Fencing Area Level 2"
     },
     "description": {
-        "text": "Mining speed level 1 upgrade",
+        "text": "Fencing area level 2 perk",
         "color": "white",
         "italic": false
     },
@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "hidden": false
 },
-"parent": "blob:mining/main_mining",
+"parent": "blob:fencing/area/fencing_area_1",
 "criteria": {
     "root": {
         "trigger": "impossible"

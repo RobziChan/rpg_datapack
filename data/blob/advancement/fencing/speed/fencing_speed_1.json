@@ -4,10 +4,10 @@
         "id": "minecraft:redstone"
     },
     "title": {
-        "text": "Mining Speed Level 1"
+        "text": "Fencing Speed Level 1"
     },
     "description": {
-        "text": "Mining speed level 1 upgrade",
+        "text": "Fencing speed level 1 perk",
         "color": "white",
         "italic": false
     },
@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "hidden": false
 },
-"parent": "blob:mining/main_mining",
+"parent": "blob:fencing/main_fencing",
 "criteria": {
     "root": {
         "trigger": "impossible"

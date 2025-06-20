@@ -1,13 +1,13 @@
 {
     "display": {
     "icon": {
-        "id": "minecraft:redstone"
+        "id": "minecraft:glow_item_frame"
     },
     "title": {
-        "text": "Mining Speed Level 1"
+        "text": "Stat Damage Level 1"
     },
     "description": {
-        "text": "Mining speed level 1 upgrade",
+        "text": "Stat damage level 1 perk",
         "color": "white",
         "italic": false
     },
@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "hidden": false
 },
-"parent": "blob:mining/main_mining",
+"parent": "blob:stats/main_stats",
 "criteria": {
     "root": {
         "trigger": "impossible"

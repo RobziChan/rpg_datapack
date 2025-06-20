@@ -1,13 +1,13 @@
 {
     "display": {
     "icon": {
-        "id": "minecraft:bow"
+        "id": "minecraft:iron_sword"
     },
     "title": {
-        "text": "Archery"
+        "text": "Fencing"
     },
     "description": {
-        "text": "All archery related perks",
+        "text": "All fenching related perks",
         "color": "white",
         "italic": false
     },
@@ -15,7 +15,7 @@
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:block/gravel"
+    "background": "minecraft:block/nether_bricks"
 },
     "criteria": {
     "root": {

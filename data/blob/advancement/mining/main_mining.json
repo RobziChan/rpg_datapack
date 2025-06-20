@@ -4,22 +4,22 @@
         "id": "minecraft:iron_pickaxe"
     },
     "title": {
-        "text": "Mining related taletns"
+        "text": "Mining"
     },
     "description": {
-        "text": "All mining related upgrades",
+        "text": "All mining related perks",
         "color": "white",
         "italic": false
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
-    "hidden": false
+    "hidden": false,
+    "background": "minecraft:block/cobblestone"
 },
-"parent": "blob:main_talents",
-"criteria": {
+    "criteria": {
     "root": {
         "trigger": "minecraft:tick"
     }
-}
+    }
 }
