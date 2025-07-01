@@ -6,7 +6,8 @@
                 "item": {
                     "items": [
                         "minecraft:miner_pottery_sherd",
-                        "minecraft:angler_pottery_sherd"
+                        "minecraft:angler_pottery_sherd",
+                        "minecraft:book"
                     ],
                     "predicates": {
                         "minecraft:custom_data": "{blob_right_click:true}"

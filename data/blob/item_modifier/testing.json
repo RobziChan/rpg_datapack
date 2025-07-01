@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "storage": "blob:item_lore",
+      "nbt": "lore",
+      "source": "storage",
+      "type": "nbt",
+      "interpret": true
+    }
+  ],
+  "mode": "append"
+}

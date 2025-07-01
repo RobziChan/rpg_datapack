@@ -5,7 +5,10 @@ execute unless entity @s[advancements={blob:mining/speed/mining_speed_1=false}] 
 #They have not learned it
 #Give them the crafting recipes
 recipe give @s blob:mining_speed_1/haste_pickaxe_upgrade_1
-recipe give @s blob:mining_speed_1/speedy_pickaxe_level_1
+
+#Change to make it so you cannot craft items directly
+#You have to use Blacksmithing to get a pickaxe with a perk slot
+#######recipe give @s blob:mining_speed_1/speedy_pickaxe_level_1
 
 #Give them the advancment
 advancement grant @s only blob:mining/speed/mining_speed_1

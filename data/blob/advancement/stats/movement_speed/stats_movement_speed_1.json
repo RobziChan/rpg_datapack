@@ -1,13 +1,13 @@
 {
     "display": {
     "icon": {
-        "id": "minecraft:iron_chestplate"
+        "id": "minecraft:golden_boots"
     },
     "title": {
-        "text": "Defense Level 1"
+        "text": "Movement Speed Level 1"
     },
     "description": {
-        "text": "Boost base defense with +1",
+        "text": "Boost base movement speed with +0.2",
         "color": "white",
         "italic": false
     },

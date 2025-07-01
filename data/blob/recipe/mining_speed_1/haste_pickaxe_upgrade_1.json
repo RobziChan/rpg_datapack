@@ -43,7 +43,7 @@
           "color": "blue"
         },
         {
-          "text": "+2 breaking blocks",
+          "text": "  +2 breaking blocks",
           "color": "blue"
         },
         {
@@ -68,7 +68,7 @@
             "consume_seconds": 1000000
         },
         "minecraft:custom_data": {
-            "haste_pickage_upgrade": true,
+            "haste_pickaxe_upgrade": true,
             "level":1,
             "blob_right_click": true
             

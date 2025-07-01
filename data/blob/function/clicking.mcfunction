@@ -33,4 +33,9 @@ execute as @s if items entity @s weapon.mainhand minecraft:iron_hoe[minecraft:cu
 #Mining Speed
 execute as @s if items entity @s weapon.mainhand minecraft:miner_pottery_sherd[minecraft:custom_data~{class_upgrade_mining_speed:true}] as @s run function blob:mining/speed/mining_speed_check_type
 
+##Perk books
+execute as @s if items entity @s weapon.mainhand minecraft:book[minecraft:custom_data~{haste_pickaxe_upgrade:true}] as @s run function blob:mining/speed/haste_pickaxe_upgrade_check_type
+
+
+
 

@@ -21,7 +21,8 @@ recipe take @a[tag=!miner] blob:miner/tools/emerald/sword_emerald
 ##########################Miner
 
 #Mining Speed 1
-recipe take @a[advancements={blob:mining/speed/mining_speed_1=false}] blob:mining_speed_1/speedy_pickaxe_level_1
+#See mining/speed/level_1.mcfunction
+#recipe take @a[advancements={blob:mining/speed/mining_speed_1=false}] blob:mining_speed_1/speedy_pickaxe_level_1
 recipe take @a[advancements={blob:mining/speed/mining_speed_1=false}] blob:mining_speed_1/haste_pickaxe_upgrade_1
 
 

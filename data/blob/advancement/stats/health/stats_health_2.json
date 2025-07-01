@@ -4,10 +4,10 @@
         "id": "minecraft:golden_apple"
     },
     "title": {
-        "text": "Stat Health Level 2"
+        "text": "Health Level 2"
     },
     "description": {
-        "text": "Stat health level 2 perk",
+        "text": "Boost base health with +1",
         "color": "white",
         "italic": false
     },

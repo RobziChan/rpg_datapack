@@ -1,13 +1,13 @@
 {
     "display": {
     "icon": {
-        "id": "minecraft:iron_chestplate"
+        "id": "minecraft:golden_boots"
     },
     "title": {
-        "text": "Defense Level 1"
+        "text": "Movement Speed Level 2"
     },
     "description": {
-        "text": "Boost base defense with +1",
+        "text": "Boost base movement speed with another +0.2",
         "color": "white",
         "italic": false
     },
@@ -16,7 +16,7 @@
     "announce_to_chat": true,
     "hidden": false
 },
-"parent": "blob:stats/main_stats",
+"parent": "blob:stats/movement_speed/stats_movement_speed_1",
 "criteria": {
     "root": {
         "trigger": "impossible"

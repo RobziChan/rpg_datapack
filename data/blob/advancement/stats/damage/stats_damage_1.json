@@ -4,10 +4,10 @@
         "id": "minecraft:glow_item_frame"
     },
     "title": {
-        "text": "Stat Damage Level 1"
+        "text": "Damage Level 1"
     },
     "description": {
-        "text": "Stat damage level 1 perk",
+        "text": "Boost base damage with +1",
         "color": "white",
         "italic": false
     },
