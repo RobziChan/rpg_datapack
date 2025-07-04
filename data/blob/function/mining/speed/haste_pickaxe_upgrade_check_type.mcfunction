@@ -17,7 +17,7 @@ item modify entity @s weapon.offhand blob:apply_perk_slots_data
 
 
 #Remove the "current_item_perk_slots" so that no issues should appear when another player does the same thing later on/same time.
-#scoreboard players reset current_item_perk_slots math
+scoreboard players reset current_item_perk_slots math
 
 
 execute as @s if items entity @s weapon.mainhand minecraft:book[minecraft:custom_data~{level:1b}] as @s run function blob:mining/speed/apply_perk/level_1

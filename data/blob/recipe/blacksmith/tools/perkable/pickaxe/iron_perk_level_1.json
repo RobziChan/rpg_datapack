@@ -57,7 +57,10 @@
         },
         "minecraft:custom_data": {
                 "speedy_pickaxe_level_1": true,
-                "perk_slots": 3
+                "perk_slots": 3,
+                "attributes_list": {
+                    "block_break_speed": 5
+                }
             }
         }
     }

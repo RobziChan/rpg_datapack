@@ -16,6 +16,7 @@
   "result": {
     "id": "minecraft:book",
     "components": {
+      "max_stack_size":1,
       "minecraft:custom_name": {
         "text": "Haste Pickaxe Upgrade 1",
         "color": "white",
@@ -28,39 +29,48 @@
         },
         {
           "text": "Hold equipment in",
-          "color": "white"
+          "color": "white",
+          "italic": false
         },
         {
           "text": "off hand to apply",
-          "color": "white"
+          "color": "white",
+          "italic": false
         },
         {
           "text": "this upgrade to it",
-          "color": "white"
+          "color": "white",
+          "italic": false
         },
         {
           "text": "Upgrade:",
-          "color": "blue"
+          "color": "blue",
+          "italic": false
         },
         {
-          "text": "  +2 breaking blocks",
-          "color": "blue"
+          "text": "  +2 block break speed",
+          "color": "green",
+          "italic": false
         },
         {
           "text": "1 time use",
-          "color": "red"
+          "color": "red",
+          "italic": false
         },
         {
           "text": "Can only be applied",
-          "color": "red"
+          "color": "red",
+          "italic": false
         },
         {
           "text": "once on the",
-          "color": "red"
+          "color": "red",
+          "italic": false
         },
         {
           "text": "same equipment",
-          "color": "red"
+          "color": "red",
+          "italic": false
         }
       ],
       "minecraft:enchantment_glint_override":true,

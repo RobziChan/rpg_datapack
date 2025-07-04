@@ -27,6 +27,7 @@
         "minecraft:consumable": {
             "consume_seconds": 1000000
         },
+        "max_stack_size":1,
         "minecraft:custom_data": {
             "class_upgrade_mining_speed": true,
             "level":1,
