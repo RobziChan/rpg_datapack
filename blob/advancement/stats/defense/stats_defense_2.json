@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+        "text": "Defense Level 2"
+    },
+    "description": {
+        "text": "Boost base defense with +1",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:stats/defense/stats_defense_1",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}

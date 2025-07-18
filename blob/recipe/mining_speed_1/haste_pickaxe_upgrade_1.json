@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#b#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:redstone"
+    ],
+    "b": [
+      "minecraft:book"
+    ]
+  },
+  "result": {
+    "id": "minecraft:book",
+    "components": {
+      "max_stack_size":1,
+      "minecraft:custom_name": {
+        "text": "Haste Pickaxe Upgrade 1",
+        "color": "white",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right click to use",
+          "color": "gray"
+        },
+        {
+          "text": "Hold equipment in",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "off hand to apply",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "this upgrade to it",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "Upgrade:",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "  +2 block break speed",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": "1 time use",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "Can only be applied",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "once on the",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "same equipment",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override":true,
+      "minecraft:consumable": {
+            "consume_seconds": 1000000
+        },
+        "minecraft:custom_data": {
+            "haste_pickaxe_upgrade": true,
+            "level":1,
+            "blob_right_click": true
+            
+        }
+    }
+  }
+}

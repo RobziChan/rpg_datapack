@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:golden_boots"
+    },
+    "title": {
+        "text": "Movement Speed Level 1"
+    },
+    "description": {
+        "text": "Boost base movement speed with +0.2",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:stats/main_stats",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}

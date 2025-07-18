@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_pickaxe"
+        },
+        "title": {
+            "text": "Blacksmith Pickaxe Upgrade Level 1"
+        },
+        "description": {
+            "text": "Craft pickaxe that can have 2 upgrades applied to it",
+            "color": "white",
+            "italic": false
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "blob:blacksmith/pickaxe/pickaxe_upgrade_slot_1",
+    "criteria": {
+        "root": {
+            "trigger": "impossible"
+        }
+    }
+}

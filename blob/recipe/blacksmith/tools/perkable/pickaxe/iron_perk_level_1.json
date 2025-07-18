@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "###",
+    "#i#",
+    "###"
+    ],
+    "key": {
+    "#": [
+        "minecraft:iron_ingot"
+    ],
+    "i": [
+        "minecraft:stick"
+    ]
+    },
+    "result": {
+        "id": "minecraft:iron_pickaxe",
+        "components": {
+            "minecraft:custom_name": {
+                "text": "Iron Pickaxe Level 1",
+                "color": "white",
+                "italic": false
+            },
+            "minecraft:lore": [
+                {
+                    "text": "Low level pickaxe",
+                    "color": "gray"
+                },
+                {
+                    "text": "Crafted by a blacksmith bonus:",
+                    "color": "white",
+                    "italic": false
+                },
+                {
+                    "text": "  +5 block break speed",
+                    "color": "green",
+                    "italic": false
+                },
+                {
+                    "text": "Upgrades:",
+                    "color": "white",
+                    "italic": false
+                }
+                
+            ],
+        "minecraft:attribute_modifiers": [
+            {
+            "type": "minecraft:block_break_speed",
+            "id": "minecraft:",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+            }
+        ],
+        "minecraft:tooltip_display": {
+            "hidden_components": []
+        },
+        "minecraft:custom_data": {
+                "speedy_pickaxe_level_1": true,
+                "upgrade_slots": 3,
+                "attributes_list": {
+                    "block_break_speed": 5
+                }
+            }
+        }
+    }
+}

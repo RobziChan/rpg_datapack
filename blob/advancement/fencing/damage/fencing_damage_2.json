@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:glow_item_frame"
+    },
+    "title": {
+        "text": "Fencing Damage Level 2"
+    },
+    "description": {
+        "text": "Fencing damage level 2 upgrade",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:fencing/damage/fencing_damage_1",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}

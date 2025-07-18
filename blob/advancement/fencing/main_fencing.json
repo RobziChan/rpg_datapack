@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:iron_sword"
+    },
+    "title": {
+        "text": "Fencing"
+    },
+    "description": {
+        "text": "All fenching related upgrades",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:block/nether_bricks"
+},
+    "criteria": {
+    "root": {
+        "trigger": "minecraft:tick"
+    }
+    }
+}

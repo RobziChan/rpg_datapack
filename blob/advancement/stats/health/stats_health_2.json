@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:golden_apple"
+    },
+    "title": {
+        "text": "Health Level 2"
+    },
+    "description": {
+        "text": "Boost base health with +1",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:stats/health/stats_health_1",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}

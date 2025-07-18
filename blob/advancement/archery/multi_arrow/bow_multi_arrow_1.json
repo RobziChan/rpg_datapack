@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:arrow"
+    },
+    "title": {
+        "text": "Archery multi arrow level 1"
+    },
+    "description": {
+        "text": "Archery multi arrow level 1 upgrade",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:archery/main_archery",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}

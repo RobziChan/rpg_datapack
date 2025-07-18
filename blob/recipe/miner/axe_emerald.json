@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        " ##",
+        " s#",
+        " s "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:diamond_axe",
+        "components":{
+            "custom_name":"{\"text\":\"Emerald Axe\",\"color\":\"white\"}",
+            "custom_data":{
+                "emerald_axe":"1b"
+            },
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 1000000
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:armor_stand"
+    },
+    "title": {
+        "text": "Totem Healt Boost Level 1"
+    },
+    "description": {
+        "text": "Unlocks the Health Boost Totem. Gives +1 hearts",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+},
+"parent": "blob:herbalist/main_herbalist",
+"criteria": {
+    "root": {
+        "trigger": "impossible"
+    }
+}
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:iron_axe"
+    },
+    "title": {
+        "text": "Woodcutting"
+    },
+    "description": {
+        "text": "All woodcutting related upgrades",
+        "color": "white",
+        "italic": false
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:block/spruce_log"
+},
+    "criteria": {
+    "root": {
+        "trigger": "minecraft:tick"
+    }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#i#",
+        " b "
+    ],
+    "key": {
+        "#": [
+            "minecraft:redstone"
+        ],
+        "i": [
+            "minecraft:iron_pickaxe"
+        ],
+        "b": [
+            "minecraft:book"
+        ]
+    },
+    "result": {
+        "id": "minecraft:miner_pottery_sherd",
+        "components": {
+        "minecraft:custom_name": {
+            "text": "Mining Speed 1",
+            "color": "white",
+            "italic": false
+        },
+        "minecraft:consumable": {
+            "consume_seconds": 1000000
+        },
+        "max_stack_size":1,
+        "minecraft:custom_data": {
+            "class_upgrade_mining_speed": true,
+            "level":1,
+            "blob_right_click": true
+        },
+        "minecraft:lore": [
+            {
+                "text": "Right click to learn",
+                "color": "gray"
+            },
+            {
+                "text": "Learns:",
+                "type": "text",
+                "color": "white"
+            },
+            {
+                "text": "-Haste pickaxe upgrade",
+                "type": "text",
+                "color": "blue"
+            },
+            {
+                "text": "-Speedy pickaxe level 1 ",
+                "type": "text",
+                "color": "blue"
+            }
+        ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_custom_data",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "blob:new_upgrade_slots"
+    },
+    "ops":[
+        {
+            "op": "replace",
+            "source": "value",
+            "target": "upgrade_slots"
+        }
+    ]
+}
